@@ -116,7 +116,6 @@ namespace CustomListTests
             //Assert (Assert taht the expected result occurred)
             Assert.AreEqual(expected, actual);
         }
-         
         [TestMethod]
         public void Remove_ValueAtIndex_Test() //TEST2_Remove
         {
@@ -263,7 +262,6 @@ namespace CustomListTests
 
             //Assert (Assert taht the expected result occurred)
             Assert.AreEqual(expected, actual);
-
         }
         [TestMethod]
         public void Remove_NoChangeInCount_Test() //****************TEST7_Remove *****************************
@@ -355,6 +353,8 @@ namespace CustomListTests
             //    Assert.AreEqual(expected, actual);
             //    Assert.AreEqual(expected2, myList[0]);
             //}
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
         }
 
     }
